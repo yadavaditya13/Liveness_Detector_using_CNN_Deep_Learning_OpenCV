@@ -13,7 +13,7 @@ There is a videos folder where you can use your video shot using your web cam or
 I also downloaded more dataset from kaggle and did the same for them as well to simply get required ROIs from images and store in dataset dir by creating another script for images named "detecting_faces_from_downloaded_image_dataset.py"
 
 Then in my_script dir you will find My CNN created using Keras... This network is trained using script "model_liveness_train.py"... which yields three output files : 
-  - liveness.model (my_self_created_and_trained_model)
+  - liveness.model (my_self_created_and_trained_model) (p.s:. has an accuracy of about 90%...)
   - le.pickle (our serialized label encoders file)
   - plot (our plotted graph which depicts the results such as losses and accuracy figures of my model)
   
