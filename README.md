@@ -8,7 +8,7 @@ There is a videos folder where you can use your video shot using your web cam or
   - There is a script "gathering_my_dataset_from_video.py" that will extract faces from your video frame by frame and store them in respective dataset folder (fake or real...depending on the path and video you provide). Make sure you use your real video and store it in real dir of dataset and vice-versa. 
 
 
-*** For the spoof video ... simply play your recorded video in front of web-cam and record it... and re-run the previous script to get fake images dataset ***
+*** For the spoof video ... simply play your recorded video in front of web-cam and record it or download from youtube or tiktok(atleast useful for something afterall:))... and re-run the previous script to get fake images dataset ***
 
 I also downloaded more dataset from kaggle and did the same for them as well to simply get required ROIs from images and store in dataset dir by creating another script for images named "detecting_faces_from_downloaded_image_dataset.py"
 
